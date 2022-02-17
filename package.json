@@ -1,10 +1,14 @@
 {
-  "name": "@aliyun/nls",
+  "name": "alibabacloud-nls",
   "version": "1.0.0",
   "description": "aliyun nls sdk for nodejs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"see README for test\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:aliyun/alibabacloud-nls-nodejs-sdk.git"
   },
   "exports": {
     "import":"./wrapper.mjs",

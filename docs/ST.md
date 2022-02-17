@@ -16,13 +16,13 @@
 > * 请确认已经安装nodejs&npm环境，并完成基本配置
 
 1. 下载SDK
-> npm install @aliyun/nls
+> npm install alibabacloud-nls
 
 2. 导入SDK
 
 在代码中使用require或者import导入SDK
 ```js
-const Nls = require('@aliyun/nls')
+const Nls = require('alibabacloud-nls')
 //Nls内部含SpeechRecognition, SpeechTranscription, SpeechSynthesizer
 //下面为使用import导入SDK
 //import SpeechRecognition from "@aliyun/nls"
@@ -169,7 +169,7 @@ Promise对象，当completed事件发生后触发resolve，并携带completed信
 ```js
 "use strict"
 
-const Nls = require("@aliyun/nls")
+const Nls = require("alibabacloud-nls")
 const fs = require("fs")
 const sleep = (waitTimeInMs) => new Promise(resolve => setTimeout(resolve, waitTimeInMs))
 
