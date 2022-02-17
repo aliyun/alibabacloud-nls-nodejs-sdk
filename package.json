@@ -1,0 +1,30 @@
+{
+  "name": "@aliyun/nls",
+  "version": "1.0.0",
+  "description": "aliyun nls sdk for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"see README for test\" && exit 1"
+  },
+  "exports": {
+    "import":"./wrapper.mjs",
+    "require":"./index.js"
+  },
+  "keywords": ["nls", "aliyun", "asr", "tts"],
+  "author": {
+    "name": "insswer",
+    "emial": "qijiasi001@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.10",
+    "log-timestamp": "^0.3.0",
+    "rimraf": "^3.0.2",
+    "uuid": "^8.3.2",
+    "ws": "^8.4.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.6",
+    "utf-8-validate": "^5.0.8"
+  }
+}
