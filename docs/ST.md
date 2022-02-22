@@ -25,9 +25,9 @@
 const Nls = require('alibabacloud-nls')
 //Nls内部含SpeechRecognition, SpeechTranscription, SpeechSynthesizer
 //下面为使用import导入SDK
-//import SpeechRecognition from "@aliyun/nls"
-//import SpeechTranscription from "@aliyun/nls"
-//import SpeechSynthesizer from "@aliyun/nls"
+//import SpeechRecognition from "alibabacloud-nls"
+//import SpeechTranscription from "alibabacloud-nls"
+//import SpeechSynthesizer from "alibabacloud-nls"
 ```
 
 

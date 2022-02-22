@@ -16,18 +16,18 @@
 > * 请确认已经安装nodejs&npm环境，并完成基本配置
 
 1. 下载SDK
-> npm install @alibabacloud-nls
+> npm install alibabacloud-nls
 
 2. 导入SDK
 
 在代码中使用require或者import导入SDK
 ```js
-const Nls = require('@alibabacloud-nls')
+const Nls = require('alibabacloud-nls')
 //Nls内部含SpeechRecognition, SpeechTranscription, SpeechSynthesizer
 //下面为使用import导入SDK
-//import SpeechRecognition from "@aliyun/nls"
-//import SpeechTranscription from "@aliyun/nls"
-//import SpeechSynthesizer from "@aliyun/nls"
+//import SpeechRecognition from "alibabacloud/nls"
+//import SpeechTranscription from "alibabacloud/nls"
+//import SpeechSynthesizer from "alibabacloud/nls"
 ```
 
 
@@ -119,14 +119,14 @@ Promise对象，当completed事件发生后触发resolve，并携带合成完毕
 
 
 
-### 一句话识别代码示例：
+### 语音合成代码示例：
 
 ```js
 "use strict"
 
 require('log-timestamp')(`${process.pid}`)
 const fs = require("fs")
-const Nls = require("@alibabacloud-nls")
+const Nls = require("alibabacloud-nls")
 const sleep = (waitTimeInMs) => new Promise(resolve => setTimeout(resolve, waitTimeInMs))
 const util = require("util")
 const readline = require("readline")
