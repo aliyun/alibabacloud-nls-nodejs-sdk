@@ -1,6 +1,6 @@
 {
   "name": "alibabacloud-nls",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "aliyun nls sdk for nodejs",
   "main": "index.js",
   "scripts": {
@@ -8,17 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:aliyun/alibabacloud-nls-nodejs-sdk.git"
+    "url": "git+ssh://git@github.com/aliyun/alibabacloud-nls-nodejs-sdk.git"
   },
   "exports": {
-    "import":"./wrapper.mjs",
-    "require":"./index.js"
+    "import": "./wrapper.mjs",
+    "require": "./index.js"
   },
-  "keywords": ["nls", "aliyun", "asr", "tts"],
-  "author": {
-    "name": "insswer",
-    "emial": "qijiasi001@gmail.com"
-  },
+  "keywords": [
+    "nls",
+    "aliyun",
+    "asr",
+    "tts"
+  ],
+  "author": "insswer",
   "license": "Apache-2.0",
   "dependencies": {
     "@alicloud/pop-core": "^1.7.10",
@@ -30,5 +32,14 @@
   "optionalDependencies": {
     "bufferutil": "^4.0.6",
     "utf-8-validate": "^5.0.8"
+  },
+  "bugs": {
+    "url": "https://github.com/aliyun/alibabacloud-nls-nodejs-sdk/issues"
+  },
+  "homepage": "https://github.com/aliyun/alibabacloud-nls-nodejs-sdk#readme",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
   }
 }
