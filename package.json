@@ -1,6 +1,6 @@
 {
   "name": "alibabacloud-nls",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "aliyun nls sdk for nodejs",
   "main": "index.js",
   "scripts": {
